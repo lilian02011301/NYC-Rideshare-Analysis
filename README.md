@@ -11,20 +11,27 @@ The dataset is provided under the path //data-repository-bkt/ECS765/rideshare_20
  - Load and join the datasets based on location fields.
  - Convert the date field from UNIX timestamp to yyyy-MM-dd format.
  - Print the number of rows and schema of the new dataframe.
+ - <img width="564" alt="截圖 2025-02-17 00 13 55" src="https://github.com/user-attachments/assets/50f1e9e2-bb5b-43cb-bbe9-5569059ce496" />
+
 ## Task 2: Aggregation of Data (20 points)
  - Count trips per business per month.
  - Calculate platform profits per business per month.
  - Calculate driver earnings per business per month.
  - Provide insights from the results.
-## Task 3: Top-K Processing
+ - ![Uploading 截圖 2025-02-17 00.14.29.png…]()
+## Task 3
+: Top-K Processing
 - Identify the top 5 popular pickup and dropoff boroughs each month.
 - Identify the top 30 earning routes.
+- 
 ##Task 4: Average of Data
 - Calculate the average driver pay and trip length for different times of the day.
 - Calculate average earnings per mile for different times of the day.
 ## Task 5: Finding Anomalies
 - Calculate average waiting time in January.
 - Identify and analyze days with waiting time exceeding 300 seconds.
+- <img width="539" alt="截圖 2025-02-17 00 15 08" src="https://github.com/user-attachments/assets/bca3dd62-9626-4150-bc52-0b9bc56d860a" />
+
 ## Task 6: Filtering Data
 - Find trip counts within a specified range for different pickup boroughs and times of day.
 - Calculate trips in the evening time and trips from Brooklyn to Staten Island.
